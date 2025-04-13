@@ -18,7 +18,7 @@ function Service() {
                 our
                 customers</p>
 
-            <div class="grid grid-cols-3 w-full gap-10 mt-10">
+                <div class="grid grid-cols-2 sm:grid-cols-3 w-[80%] justify-between mx-auto sm:gap-10 sm:w-full mt-10">
                 <div class="flex flex-col items-center justify-center">
                     <div class="w-20  h-20 bg-[#6f42c1] p-5 rounded-full flex justify-center items-center">
                         <div>
