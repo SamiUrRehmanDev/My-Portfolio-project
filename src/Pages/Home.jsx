@@ -107,7 +107,7 @@ function Home() {
                 <div class="border-2 border-[#583b87]  w-[25%] rounded-r-[50%]"></div>
             </div>
             <div class="mt-20 w-full flex flex-col sm:flex-row justify-between items-center">
-                <div class="w-[25%] max-[600px]:mb-10">
+                <div class="max-[600px]:w-[50%] w-[25%] max-[600px]:mb-20">
                     <img class="border-4 border-[#272b30] rounded-full" src={profile} alt=""/>
                 </div>
                 <div class="w-[70%]">
