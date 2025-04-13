@@ -21,7 +21,7 @@ function About() {
                         <div class="border-2 border-[#583b87]  w-[25%] rounded-r-[50%]"></div>
                     </div>
                     <div class="mt-20 w-full flex flex-col sm:flex-row justify-between items-center">
-                        <div class="w-[25%] max-[600px]:mb-10">
+                        <div class="max-[600px]:w-[50%] w-[25%] max-[600px]:mb-20">
                             <img class="border-4 border-[#272b30] rounded-full" src={profile} alt=""/>
                         </div>
                         <div class="w-[70%]">
@@ -67,7 +67,7 @@ function About() {
                                 class="font-raleway text-white max-[700px]:flex justify-center items-center text-3xl border-b-[2px] border-[#a98eda] border-dashed pb-2">Web
                             Designing</span>
                             <div class="w-[90%] mx-auto flex sm:flex-row flex-col justify-between items-center mt-2 flex-wrap">
-                                <div class="w-[45%] flex justify-between items-center mt-5">
+                                <div class="w-[70%] sm:w-[45%] flex justify-between max-[700px]:gap-2 items-center mt-5">
                                     <div class="flex">
                                         <svg viewBox="0 0 15 15" fill="#a98eda" class="w-7" xmlns="http://www.w3.org/2000/svg"
                                             stroke="#">
@@ -82,14 +82,13 @@ function About() {
                                         </svg>
                                         <p class="text-white text-xl ml-2">Figma</p>
                                     </div>
-                                    <span class="text-[#888888] text-sm">(Software)</span>
-                                    <div class="flex item-center max-[600px]:gap-1 justify-evenly w-[65%] sm:w-[30%]">
-                                    <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star1} alt="" class="w-5 sm:w-7"/>
+                                    <div class="flex item-center justify-evenly w-[65%] sm:w-[30%]">
+                                    <img src={star} alt="" class="w-7"/>
+                                        <img src={star} alt="" class="w-7"/>
+                                        <img src={star1} alt="" class="w-7"/>
                                     </div>
                                 </div>
-                                <div class="w-[45%] flex justify-between items-center mt-5">
+                                <div class="w-[70%] sm:w-[45%] flex justify-between max-[700px]:gap-2 items-center mt-5">
                                     <div class="flex">
                                         <svg stroke="currentColor" fill="#a98eda" class="w-7" stroke-width="0" role="img"
                                             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -100,14 +99,13 @@ function About() {
                                         </svg>
                                         <p class="text-white text-xl ml-2">Adobe XD</p>
                                     </div>
-                                    <span class="text-[#888888] text-sm">(Software)</span>
-                                    <div class="flex item-center max-[600px]:gap-1 justify-evenly w-[65%] sm:w-[30%]">
-                                    <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star1} alt="" class="w-5 sm:w-7"/>
+                                    <div class="flex item-center justify-evenly w-[65%] sm:w-[30%]">
+                                    <img src={star} alt="" class="w-7"/>
+                                        <img src={star} alt="" class="w-7"/>
+                                        <img src={star1} alt="" class="w-7"/>
                                     </div>
                                 </div>
-                                <div class="w-[45%] flex justify-between items-center mt-5">
+                                <div class="w-[70%] sm:w-[45%] flex justify-between max-[700px]:gap-2 items-center mt-5">
                                     <div class="flex">
                                         <svg fill="#a98eda" class="w-7" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
                                             xml:space="preserve">
@@ -123,13 +121,13 @@ function About() {
                                         <p class="text-white text-xl ml-2">Tailwind</p>
                                     </div>
                                     <span class="text-[#888888] text-sm"></span>
-                                    <div class="flex item-center max-[600px]:gap-1 justify-evenly w-[65%] sm:w-[30%]">
-                                    <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star1} alt="" class="w-5 sm:w-7"/>
+                                    <div class="flex item-center justify-evenly w-[65%] sm:w-[30%]">
+                                    <img src={star} alt="" class="w-7"/>
+                                        <img src={star} alt="" class="w-7"/>
+                                        <img src={star1} alt="" class="w-7"/>
                                     </div>
                                 </div>
-                                <div class="w-[45%] flex justify-between items-center mt-5">
+                                <div class="w-[70%] sm:w-[45%] flex justify-between max-[700px]:gap-2 items-center mt-5">
                                     <div class="flex">
                                         <svg viewBox="0 0 24 24" fill="#a98eda" class="w-7" xmlns="http://www.w3.org/2000/svg"
                                             stroke="">
@@ -145,10 +143,10 @@ function About() {
                                         <p class="text-white text-xl ml-2">Bootstrap</p>
                                     </div>
                                     <span class="text-[#888888] text-sm"></span>
-                                    <div class="flex item-center max-[600px]:gap-1 justify-evenly w-[65%] sm:w-[30%]">
-                                    <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star1} alt="" class="w-5 sm:w-7"/>
+                                    <div class="flex item-center justify-evenly w-[65%] sm:w-[30%]">
+                                    <img src={star} alt="" class="w-7"/>
+                                        <img src={star} alt="" class="w-7"/>
+                                        <img src={star1} alt="" class="w-7"/>
                                     </div>
                                 </div>
         
@@ -159,7 +157,7 @@ function About() {
                                 class="font-raleway text-white max-[700px]:flex max-[700px]:justify-center text-3xl border-b-[2px] border-[#a98eda] border-dashed pb-2">Web
                                 Development</span>
                             <div class="w-[90%] mx-auto flex sm:flex-row flex-col justify-between items-center mt-2 flex-wrap">
-                                <div class="w-[45%] flex justify-between items-center mt-5">
+                                <div class="w-[70%] sm:w-[45%] flex justify-between max-[700px]:gap-2 items-center mt-5">
                                     <div class="flex">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="w-7" fill="#a98eda"
                                             viewBox="0 0 384 512">
@@ -169,14 +167,13 @@ function About() {
                                         </svg>
                                         <p class="text-white text-xl ml-2">CSS</p>
                                     </div>
-                                    <span class="text-[#888888] text-sm">(linkedin Badge)</span>
-                                    <div class="flex item-center max-[600px]:gap-1 justify-evenly w-[65%] sm:w-[30%]">
-                                    <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star1} alt="" class="w-5 sm:w-7"/>
+                                    <div class="flex item-center justify-evenly w-[65%] sm:w-[30%]">
+                                    <img src={star} alt="" class="w-7"/>
+                                        <img src={star} alt="" class="w-7"/>
+                                        <img src={star1} alt="" class="w-7"/>
                                     </div>
                                 </div>
-                                <div class="w-[45%] flex justify-between items-center mt-5">
+                                <div class="w-[70%] sm:w-[45%] flex justify-between max-[700px]:gap-3 items-center mt-5">
                                     <div class="flex">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="w-7" fill="#a98eda"
                                             viewBox="0 0 384 512">
@@ -186,14 +183,13 @@ function About() {
                                         </svg>
                                         <p class="text-white text-xl ml-2">HTML</p>
                                     </div>
-                                    <span class="text-[#888888] text-sm">(linkedin Badge)</span>
-                                    <div class="flex item-center max-[600px]:gap-1 justify-evenly w-[65%] sm:w-[30%]">
-                                    <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star1} alt="" class="w-5 sm:w-7"/>
+                                    <div class="flex item-center justify-evenly w-[65%] sm:w-[30%]">
+                                    <img src={star} alt="" class="w-7"/>
+                                        <img src={star} alt="" class="w-7"/>
+                                        <img src={star1} alt="" class="w-7"/>
                                     </div>
                                 </div>
-                                <div class="w-[45%] flex justify-between items-center mt-5">
+                                <div class="w-[70%] sm:w-[45%] flex justify-between max-[700px]:gap-2 items-center mt-5">
                                     <div class="flex">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="w-7" fill="#a98eda"
                                             viewBox="0 0 448 512">
@@ -204,13 +200,13 @@ function About() {
                                         <p class="text-white text-xl ml-2">JavaScript</p>
                                     </div>
                                     <span class="text-[#888888] text-sm"></span>
-                                    <div class="flex item-center max-[600px]:gap-1 justify-evenly w-[65%] sm:w-[30%]">
-                                    <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star1} alt="" class="w-5 sm:w-7"/>
+                                    <div class="flex item-center justify-evenly w-[65%] sm:w-[30%]">
+                                    <img src={star} alt="" class="w-7"/>
+                                        <img src={star} alt="" class="w-7"/>
+                                        <img src={star1} alt="" class="w-7"/>
                                     </div>
                                 </div>
-                                <div class="w-[45%] flex justify-between items-center mt-5">
+                                <div class="w-[70%] sm:w-[45%] flex justify-between max-[700px]:gap-2 items-center mt-5">
                                     <div class="flex">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="w-7" fill="#a98eda"
                                             viewBox="0 0 448 512">
@@ -221,13 +217,13 @@ function About() {
                                         <p class="text-white text-xl ml-2">Node.js</p>
                                     </div>
                                     <span class="text-[#888888] text-sm"></span>
-                                    <div class="flex item-center max-[600px]:gap-1 justify-evenly w-[65%] sm:w-[30%]">
-                                    <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star1} alt="" class="w-5 sm:w-7"/>
+                                    <div class="flex item-center justify-evenly w-[65%] sm:w-[30%]">
+                                    <img src={star} alt="" class="w-7"/>
+                                        <img src={star} alt="" class="w-7"/>
+                                        <img src={star1} alt="" class="w-7"/>
                                     </div>
                                 </div>
-                                <div class="w-[45%] flex justify-between items-center mt-5">
+                                <div class="w-[70%] sm:w-[45%] flex justify-between max-[700px]:gap-2 items-center mt-5">
                                     <div class="flex">
                                         <svg stroke="currentColor" fill="#a98eda" class="w-7" stroke-width="0"
                                             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -238,10 +234,10 @@ function About() {
                                         <p class="text-white text-xl ml-2">MongoDB</p>
                                     </div>
                                     <span class="text-[#888888] text-sm"></span>
-                                    <div class="flex item-center max-[600px]:gap-1 justify-evenly w-[65%] sm:w-[30%]">
-                                    <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star1} alt="" class="w-5 sm:w-7"/>
+                                    <div class="flex item-center justify-evenly w-[65%] sm:w-[30%]">
+                                    <img src={star} alt="" class="w-7"/>
+                                        <img src={star} alt="" class="w-7"/>
+                                        <img src={star1} alt="" class="w-7"/>
                                     </div>
                                 </div>
                             </div>
@@ -251,7 +247,7 @@ function About() {
                                 class="font-raleway max-[700px]:flex max-[700px]:justify-center text-white text-3xl border-b-[2px] border-[#a98eda] border-dashed pb-2">MERN
                                 Stack</span>
                             <div class="w-[90%] mx-auto flex sm:flex-row flex-col justify-between items-center mt-2 flex-wrap">
-                                <div class="w-[45%] flex justify-between items-center mt-5">
+                                <div class="w-[70%] sm:w-[45%] flex justify-between items-center mt-5">
                                     <div class="flex">
                                         <svg stroke="currentColor" fill="#a98eda" class="w-7" stroke-width="0"
                                             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -271,14 +267,13 @@ function About() {
                                         </svg>
                                         <p class="text-white text-xl ml-2">React</p>
                                     </div>
-                                    <span class="text-[#888888] text-sm">(linkedin Badge)</span>
-                                    <div class="flex item-center max-[600px]:gap-1 justify-evenly w-[65%] sm:w-[30%]">
-                                    <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star1} alt="" class="w-5 sm:w-7"/>
+                                    <div class="flex item-center justify-evenly w-[65%] sm:w-[30%]">
+                                    <img src={star} alt="" class="w-7"/>
+                                        <img src={star} alt="" class="w-7"/>
+                                        <img src={star1} alt="" class="w-7"/>
                                     </div>
                                 </div>
-                                <div class="w-[45%] flex justify-between items-center mt-5">
+                                <div class="w-[70%] sm:w-[45%] flex justify-between items-center mt-5">
                                     <div class="flex">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="w-7" fill="#a98eda"
                                             viewBox="0 0 128 128">
@@ -289,13 +284,13 @@ function About() {
                                         <p class="text-white text-xl ml-2">Next.js</p>
                                     </div>
                                     <span class="text-[#888888] text-sm"></span>
-                                    <div class="flex item-center max-[600px]:gap-1 justify-evenly w-[65%] sm:w-[30%]">
-                                    <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star1} alt="" class="w-5 sm:w-7"/>
+                                    <div class="flex item-center justify-evenly w-[65%] sm:w-[30%]">
+                                    <img src={star} alt="" class="w-7"/>
+                                        <img src={star} alt="" class="w-7"/>
+                                        <img src={star1} alt="" class="w-7"/>
                                     </div>
                                 </div>
-                                <div class="w-[45%] flex justify-between items-center mt-5">
+                                <div class="w-[70%] sm:w-[45%] flex justify-between items-center mt-5">
                                     <div class="flex">
                                         <svg stroke="currentColor" fill="#a98eda" class="w-7" stroke-width="0" role="img"
                                             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -307,13 +302,13 @@ function About() {
                                         <p class="text-white text-xl ml-2">Express.js</p>
                                     </div>
                                     <span class="text-[#888888] text-sm"></span>
-                                    <div class="flex item-center max-[600px]:gap-1 justify-evenly w-[65%] sm:w-[30%]">
-                                    <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star1} alt="" class="w-5 sm:w-7"/>
+                                    <div class="flex item-center justify-evenly w-[65%] sm:w-[30%]">
+                                    <img src={star} alt="" class="w-7"/>
+                                        <img src={star} alt="" class="w-7"/>
+                                        <img src={star1} alt="" class="w-7"/>
                                     </div>
                                 </div>
-                                <div class="w-[45%] flex justify-between items-center mt-5">
+                                <div class="w-[70%] sm:w-[45%] flex justify-between items-center mt-5">
                                     <div class="flex">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="w-7" fill="#a98eda"
                                             viewBox="0 0 128 128">
@@ -327,13 +322,13 @@ function About() {
                                         <p class="text-white text-xl ml-2">mongoose.js</p>
                                     </div>
                                     <span class="text-[#888888] text-sm"></span>
-                                    <div class="flex item-center max-[600px]:gap-1 justify-evenly w-[65%] sm:w-[30%]">
-                                    <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star1} alt="" class="w-5 sm:w-7"/>
+                                    <div class="flex item-center justify-evenly w-[65%] sm:w-[30%]">
+                                    <img src={star} alt="" class="w-7"/>
+                                        <img src={star} alt="" class="w-7"/>
+                                        <img src={star1} alt="" class="w-7"/>
                                     </div>
                                 </div>
-                                <div class="w-[45%] flex justify-between items-center mt-5">
+                                <div class="w-[70%] sm:w-[45%] flex justify-between items-center mt-5">
                                     <div class="flex">
                                         <svg stroke="currentColor" fill="#a98eda" class="w-7" stroke-width="0"
                                             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -350,13 +345,13 @@ function About() {
                                         <p class="text-white text-xl ml-2">MongoDB</p>
                                     </div>
                                     <span class="text-[#888888] text-sm"></span>
-                                    <div class="flex item-center max-[600px]:gap-1 justify-evenly w-[65%] sm:w-[30%]">
-                                    <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star1} alt="" class="w-5 sm:w-7"/>
+                                    <div class="flex item-center justify-evenly w-[65%] sm:w-[30%]">
+                                    <img src={star} alt="" class="w-7"/>
+                                        <img src={star} alt="" class="w-7"/>
+                                        <img src={star1} alt="" class="w-7"/>
                                     </div>
                                 </div>
-                                <div class="w-[45%] flex justify-between items-center mt-5">
+                                <div class="w-[70%] sm:w-[45%] flex justify-between items-center mt-5">
                                     <div class="flex">
                                         <svg stroke="currentColor" fill="#a98eda" class="w-7" stroke-width="0" role="img"
                                             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -368,10 +363,10 @@ function About() {
                                         <p class="text-white text-xl ml-2">MongoDB</p>
                                     </div>
                                     <span class="text-[#888888] text-sm"></span>
-                                    <div class="flex item-center max-[600px]:gap-1 justify-evenly w-[65%] sm:w-[30%]">
-                                    <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star1} alt="" class="w-5 sm:w-7"/>
+                                    <div class="flex item-center justify-evenly w-[65%] sm:w-[30%]">
+                                    <img src={star} alt="" class="w-7"/>
+                                        <img src={star} alt="" class="w-7"/>
+                                        <img src={star1} alt="" class="w-7"/>
                                     </div>
                                 </div>
                             </div>
@@ -380,7 +375,7 @@ function About() {
                             <span
                                 class="font-raleway text-white max-[700px]:flex max-[700px]:justify-center text-3xl border-b-[2px] border-[#a98eda] border-dashed pb-2">Deployment</span>
                             <div class="w-[90%] mx-auto flex sm:flex-row flex-col justify-between items-center mt-2 flex-wrap">
-                                <div class="w-[45%] flex justify-between items-center mt-5">
+                                <div class="w-[70%] sm:w-[45%] flex justify-between items-center mt-5">
                                     <div class="flex">
                                         <svg stroke="currentColor" fill="#a98eda" class="w-7" stroke-width="0"
                                             viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
@@ -391,13 +386,13 @@ function About() {
                                         <p class="text-white text-xl ml-2">Ubuntu</p>
                                     </div>
                                     <span class="text-[#888888] text-sm"></span>
-                                    <div class="flex item-center max-[600px]:gap-1 justify-evenly w-[65%] sm:w-[30%]">
-                                    <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star1} alt="" class="w-5 sm:w-7"/>
+                                    <div class="flex item-center justify-evenly w-[65%] sm:w-[30%]">
+                                    <img src={star} alt="" class="w-7"/>
+                                        <img src={star} alt="" class="w-7"/>
+                                        <img src={star1} alt="" class="w-7"/>
                                     </div>
                                 </div>
-                                <div class="w-[45%] flex justify-between items-center mt-5">
+                                <div class="w-[70%] sm:w-[45%] flex justify-between items-center mt-5">
                                     <div class="flex">
                                         <svg stroke="currentColor" fill="#a98eda" class="w-7" stroke-width="0" role="img"
                                             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -409,10 +404,10 @@ function About() {
                                         <p class="text-white text-xl ml-2">Nginx</p>
                                     </div>
                                     <span class="text-[#888888] text-sm"></span>
-                                    <div class="flex item-center max-[600px]:gap-1 justify-evenly w-[65%] sm:w-[30%]">
-                                    <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star1} alt="" class="w-5 sm:w-7"/>
+                                    <div class="flex item-center justify-evenly w-[65%] sm:w-[30%]">
+                                    <img src={star} alt="" class="w-7"/>
+                                        <img src={star} alt="" class="w-7"/>
+                                        <img src={star1} alt="" class="w-7"/>
                                     </div>
                                 </div>
                             </div>
@@ -422,7 +417,7 @@ function About() {
                                 class="font-raleway max-[700px]:flex max-[700px]:justify-center text-white text-3xl border-b-[2px] border-[#a98eda] border-dashed pb-2">Software
                                 Engineering</span>
                             <div class="w-[90%] mx-auto flex sm:flex-row flex-col justify-between items-center mt-2 flex-wrap">
-                                <div class="w-[45%] flex justify-between items-center mt-5">
+                                <div class="w-[70%] sm:w-[45%] flex justify-between items-center mt-5">
                                     <div class="flex">
                                         <svg stroke="currentColor" fill="#a98eda" class="w-7" stroke-width="0"
                                             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -433,13 +428,13 @@ function About() {
                                         <p class="text-white text-xl ml-2">Git</p>
                                     </div>
                                     <span class="text-[#888888] text-sm"></span>
-                                    <div class="flex item-center max-[600px]:gap-1 justify-evenly w-[65%] sm:w-[30%]">
-                                    <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star1} alt="" class="w-5 sm:w-7"/>
+                                    <div class="flex item-center justify-evenly w-[65%] sm:w-[30%]">
+                                    <img src={star} alt="" class="w-7"/>
+                                        <img src={star} alt="" class="w-7"/>
+                                        <img src={star1} alt="" class="w-7"/>
                                     </div>
                                 </div>
-                                <div class="w-[45%] flex justify-between items-center mt-5">
+                                <div class="w-[70%] sm:w-[45%] flex justify-between items-center mt-5">
                                     <div class="flex">
                                         <svg viewBox="0 0 496 512" class="w-7" fill="#a98eda"
                                             xmlns="http: //www.w3.org/2000/svg">
@@ -450,13 +445,13 @@ function About() {
                                         <p class="text-white text-xl ml-2">GitHub</p>
                                     </div>
                                     <span class="text-[#888888] text-sm"></span>
-                                    <div class="flex item-center max-[600px]:gap-1 justify-evenly w-[65%] sm:w-[30%]">
-                                    <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star1} alt="" class="w-5 sm:w-7"/>
+                                    <div class="flex item-center justify-evenly w-[65%] sm:w-[30%]">
+                                    <img src={star} alt="" class="w-7"/>
+                                        <img src={star} alt="" class="w-7"/>
+                                        <img src={star1} alt="" class="w-7"/>
                                     </div>
                                 </div>
-                                <div class="w-[45%] flex justify-between items-center mt-5">
+                                <div class="w-[70%] sm:w-[45%] flex justify-between items-center mt-5">
                                     <div class="flex">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="w-7" viewBox="0 0 128 128">
                                             <path fill="#a98eda"
@@ -471,14 +466,13 @@ function About() {
                                         </svg>
                                         <p class="text-white text-xl ml-2">C</p>
                                     </div>
-                                    <span class="text-[#888888] text-sm">(linkedin Badge)</span>
-                                    <div class="flex item-center max-[600px]:gap-1 justify-evenly w-[65%] sm:w-[30%]">
-                                    <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star1} alt="" class="w-5 sm:w-7"/>
+                                    <div class="flex item-center justify-evenly w-[65%] sm:w-[30%]">
+                                    <img src={star} alt="" class="w-7"/>
+                                        <img src={star} alt="" class="w-7"/>
+                                        <img src={star1} alt="" class="w-7"/>
                                     </div>
                                 </div>
-                                <div class="w-[45%] flex justify-between items-center mt-5">
+                                <div class="w-[70%] sm:w-[45%] flex justify-between items-center mt-5">
                                     <div class="flex">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="w-7" fill="#a98eda"
                                             viewBox="0 0 128 128">
@@ -498,10 +492,10 @@ function About() {
                                         <p class="text-white text-xl ml-2">C++</p>
                                     </div>
                                     <span class="text-[#888888] text-sm"></span>
-                                    <div class="flex item-center max-[600px]:gap-1 justify-evenly w-[65%] sm:w-[30%]">
-                                    <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star} alt="" class="w-5 sm:w-7"/>
-                                        <img src={star1} alt="" class="w-5 sm:w-7"/>
+                                    <div class="flex item-center justify-evenly w-[65%] sm:w-[30%]">
+                                    <img src={star} alt="" class="w-7"/>
+                                        <img src={star} alt="" class="w-7"/>
+                                        <img src={star1} alt="" class="w-7"/>
                                     </div>
                                 </div>
                             </div>
